@@ -1,0 +1,9 @@
+//Make Controller
+ php artisan make:controller ProductController --resource --model=Product
+php artisan make:controller ProductController
+
+//Make model
+php artisan make:model Product --migration
+
+//Migration
+php artisna migrate
