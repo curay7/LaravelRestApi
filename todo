@@ -7,3 +7,8 @@ php artisan make:model Product --migration
 
 //Migration
 php artisna migrate
+
+
+//Insatall Sanctum
+composer require laravel/sanctum
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
